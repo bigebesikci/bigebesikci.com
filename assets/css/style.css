@@ -1,0 +1,19 @@
+*,body{font-family: 'Ubuntu', sans-serif;}
+body {
+	background-color: #EF9A9A;
+	text-align: center;
+
+}
+h1 {
+	border: 5px solid white
+}
+h1,p {color: white;}
+.stay-tuned {
+	position: absolute;
+	top:  50%;
+	margin:  0;
+	margin-top: -75px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 150px;
+}
