@@ -1,6 +1,6 @@
 *,body{font-family: 'Ubuntu', sans-serif;}
 body {
-  background: url(/assets/css/imgs/background-image.png);
+  background-image: url(/assets/css/imgs/background-image.png);
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
