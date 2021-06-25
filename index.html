@@ -5,6 +5,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicons/favicon-16x16.png">
     <link rel="manifest" href="/assets/imgs/favicons/site.webmanifest">
+    RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.bigebesikci.com/$1 [R,L]
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>Bige's Personal Website</title>
